@@ -1,0 +1,172 @@
+
+{% extends 'base.html' %}
+
+{% load static %}
+
+
+    {% block basefile %}
+
+    <!-- slideshow -->
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src={% static 'image/img1.jpg' %} alt="">
+        </div>
+        <div class="mySlides fade">
+            <img src={% static 'image/img2.jpg' %} alt="">
+        </div>
+        <div class="mySlides fade">
+            <img src={% static 'image/img3.jpg' %} alt="">
+        </div>
+        <div class="dots" style="text-align: center;">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <section class="content">
+        <div class="logo2">
+            <img src={% static 'image/logo2.png' %} alt="">
+        </div>
+        <div class="text">
+            <h2>WELCOME TO THE WORLD BRANDING AWARDS</h2>
+            <div class="dashbox">
+                <div class="dash"></div>
+            </div>
+            <h3>THE ULTIMATE GLOBAL BRAND RECOGNITION ACCOLADE</h3>
+        </div>
+    </section>
+
+    <section class="box-content">
+        <div class="boxes">
+            <div class="box">
+                <img src={% static 'image/boximg1.jpg' %} alt="">
+                <div class="box-text-hh ">
+                    <h2>THE AWARDS</h2>
+                </div>
+                <div class="box-text2">
+                    {% comment %} <img src={% static 'image/boximg1.jpg' %} alt=""> {% endcomment %}
+                    <div id="background-text">
+                        <p>The World Branding Awards are only presented to the very top brands that are household names,
+                            globally and in their home countries.</p>
+                        <p>SEE MORE</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src={% static 'image/boximg2.jpg' %} alt="">
+            </div>
+            <div class="box">
+                <img src={% static 'image/boximg3.jpg' %} alt="">
+            </div>
+        </div>
+        <div class="text2">
+            <h3>THE WORLD BRANDING AWARDS RETURNS FOR ITS 14TH CEREMONY IN</h3>
+        </div>
+        <div class="numb"></div>
+    </section>
+
+    <section class="content2">
+        <div class="col50">
+            <div class="vbox">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/U-kJ0si9DlY"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="col50">
+            <div class="text">
+                <h2>THE ULTIMATE PRIZE IN BRANDING</h2>
+                <h4>THE WORLD BRANDING AWARDS IS THE PREMIER AWARDS OF THE WORLD BRANDING FORUM.</h4>
+                <p>The Awards sees some of the world’s best brands recognised for their work and achievements.</p>
+                <p>Due to the Global Pandemic, it has not been possible to hold a physical event, but the Awards went
+                    ‘virtual’ for the first time in its history to celebrate the winners of the 2021-2022 Aniamlis
+                    Edition of the Awards. </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="content3">
+        <div class="text">
+            <h2>The 2021-2022 Animalis Edition of the World Branding Awards went ‘virtual’ on 9 September 2021.</h2>
+            <div class="dashbox">
+                <div class="dash"></div>
+            </div>
+            <p>Click<a href="#"> here</a> to see the full list of winning brands.</p>
+        </div>
+        <div class="boxes">
+            <div class="box"><img src={% static 'image/pop1.jpg' %} alt="">
+                <div class="text"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                        class="bi bi-search" viewBox="0 0 16 16">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                    </svg></div>
+            </div>
+            <div class="box"><img src={% static 'image/pop2.jpg' %} alt="">
+                <div class="text"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                        class="bi bi-search" viewBox="0 0 16 16">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                    </svg></div>
+            </div>
+            <div class="box"><img src={% static 'image/pop3.jpg' %} alt="">
+                <div class="text"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                        class="bi bi-search" viewBox="0 0 16 16">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                    </svg></div>
+            </div>
+            <div class="box"><img src={% static 'image/pop4.jpg' %} alt="">
+                <div class="text"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                        class="bi bi-search" viewBox="0 0 16 16">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                    </svg></div>
+            </div>
+        </div>
+        <div class="para">A UNIQUE THREE STREAM SYSTEM CONTRIBUTES TO THE FINAL SCORE IN EVALUATING A WINNING BRAND
+        </div>
+    </section>
+
+
+
+   
+
+
+ 
+         <script>
+        // fop slider
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName('mySlides');
+            var dots = document.getElementsByClassName('dot');
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+         </script>
+
+    
+    
+{% endblock basefile %}

@@ -1,0 +1,117 @@
+
+/* MULTI */
+
+.awards-body .main-h{
+    color: #0b143b;
+}
+
+.awards-body .awards-para {
+    color: #818181;
+}
+
+/* Heading Section */
+.awards-body .contend-wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.awards-body .awards-heading1 {
+    max-width: 1915px;
+    height: 500px;
+    margin: 0 auto;
+    background-image: url('../image/wba-new-trophies-midheader.jpg');
+    background-size: auto;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.awards-body .awards-heading1 h1 {
+    margin-top: 157px;
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+    text-shadow: 1px 1px 5px rgb(110, 110, 110);
+}
+
+.awards-body section.awards-container-first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.awards-body section.awards-container-first > div {
+    margin-bottom: 50px;
+    display: flex;
+    text-align: center;
+}
+
+/* AWARD TIERS */
+.awards-body .contend-wrapper section.awards-container-second {
+    margin: 50px;
+}
+
+.awards-body .contend-wrapper section.awards-container-second .awards-heading {
+    margin: 50px 0;
+}
+
+.awards-body .contend-wrapper section.awards-container-second .contend {
+    display: flex;
+}
+.awards-body .contend-wrapper section.awards-container-second .contend .awards-image {
+    margin: 0 50px;
+    transition: 1000ms;
+}
+
+.awards-body .contend-wrapper section.awards-container-second .contend .awards-details .awards-details-h3, .awards-details-para {
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+
+/* Blue Bar */
+
+.awards-body .awards-blue {
+    background-color: #1e73be;
+    height: 100px;
+    width: 100%;
+}
+
+.awards-body .awards-blue .awards-blue-container {
+    height: 100px;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.awards-body .awards-blue .awards-blue-container span{
+    font-size: 24px;
+}
+
+.awards-body .awards-blue .awards-blue-container .btn .btn-a {
+text-decoration: none;
+color: #fff;
+border: 2px solid #fff;
+border-radius: 4px;
+padding: 12px 25px;
+font-size: 12px;
+font-weight: bold;
+cursor: pointer;
+transition: 200ms;
+}
+
+.awards-body .awards-blue .awards-blue-container .btn .btn-a:hover {
+    background: #0b143b;
+    border-color: #0b143b;
+}
+
+/* JUDGING SECTION */
+
+.awards-body .contend-wrapper .awards-judging h2 {
+    margin: 50px 0;
+}

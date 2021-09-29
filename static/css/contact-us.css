@@ -1,0 +1,123 @@
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    background:#f6f6f6; 
+    /* background: #fff; */
+    margin-top: 122px;
+}
+.main-container .container{
+    max-width: 1100px;
+    height: 1450px;
+    background: #f6f6f6;
+    color: #818181;
+    display: flex;
+    padding-top: 30px;
+}
+.sidebar{
+    width: 25%;
+    padding:0 20px;
+}
+.sidebar .sidebar-contant{
+    margin: 25px 0;
+    
+}
+.forum-heading-1{
+    font-size: 17px;
+    font-weight: normal;
+    color: #0b143b;
+}
+.forum-social-media{
+    /* height: auto; */
+}
+.forum-heading-2{
+    color: #0b143b;
+}
+.forum-norton-img{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-us{
+    width: 75%;
+    padding: 0 20px;
+}
+.contact-us-heading-1{
+    margin: 20px 0;
+    color: #0b143b;
+    font-weight: 500;
+}
+.radio-btn{
+    margin: 15px 0;
+    color: #818181;
+}
+.input-box .input{
+    height: 30px;
+    width: 325px;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    padding: 0 10px;
+}
+.input-box{
+    margin: 20px 10px;
+    width: 350px;
+    height: auto;
+}
+.user-details{
+    display: flex;
+    flex-wrap: wrap;
+}
+.details{
+    color: #818181;
+}
+#job-input{
+    width: 100%;
+}
+#phone-extension{
+    width: 100px;
+}
+#massage-box{
+    margin-top: 10px;
+    padding: 10px;
+}
+.country-select{
+    box-shadow: 1px 1px 5px #969696;
+    padding: 5px;
+    color: #818181
+}
+.captcha{
+    padding: 20px 0;
+    /* border: 1px solid red; */
+}
+#form1{
+    display: none;
+}
+#form2{
+    display: block;
+}
+#form3{
+    display: none;
+}
+#form4{
+    display: none;
+}
+#form5{
+    display: none;
+}
+.text5{
+    width: 100%;
+    margin: 20px 0;
+    color: #0b143b;
+    font-weight: 200;
+    font-size: 30px;
+}
+.select-box{
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+}
+.list{
+    margin-bottom: 10px;
+}

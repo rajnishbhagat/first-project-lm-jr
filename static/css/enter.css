@@ -1,0 +1,172 @@
+
+.container-heading5 {
+    max-width: 1915px;
+    height: 500px;
+    margin: 0 auto;
+    background: url('../image/wba-new-trophies-midheader.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .container-heading5 h1 {
+    margin-top: 157px;
+    color: white;
+    font-size: 47px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px rgb(110, 110, 110);
+}
+.enter-text
+{
+    width: 1100px;
+    margin: auto;
+}
+
+.enter-text .first-text
+{
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    color: #0B143b;
+}
+.enter-text .first-text h1
+{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+}
+.enter-text .second-text,
+.enter-text .fourth-text
+{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-top: 35px;
+}
+.enter-text .second-text h4,
+.enter-text .fourth-text h4
+{
+    font-size: 17px;
+    font-weight: 900;
+}
+.enter-text .btn
+{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.enter-text .btn .inner
+{
+    height: 43px;
+    width: 128.09px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eeeff4;
+    border: solid #0b143b 2px;
+    border-radius: 5px;
+    color: #0b143b;
+}
+.enter-text .btn .inner:hover
+{
+    background: #0b143b;
+}
+.enter-text .btn .inner:hover a
+{
+    color: #fff;
+}
+.enter-text .btn .inner a
+{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 900;
+    color: #0b143b;
+}
+.enter-text .third-text
+{
+    width: 94%;
+    margin: auto;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+.enter-text .btn2
+{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.enter-text .btn2 .inner
+{
+    height: 43px;
+    width: 244.72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eeeff4;
+    border: solid #0b143b 2px;
+    border-radius: 5px;
+    color: #0b143b;
+}
+.enter-text .btn2 .inner a
+{
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 900;
+    color: #0b143b;
+}
+.enter-text .btn2 .inner:hover
+{
+    background: #0b143b;
+}
+.enter-text .btn2 .inner:hover a
+{
+    color: #fff;
+}
+.enter-text .five-text
+{
+    text-align: center;
+    color: #818181;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+.enter-text .five-text .small
+{
+    font-size: 13.3333px;
+}
+.enter-text .five-text .first
+{
+    margin: 25px 0px;
+}
+.enter-text .six-text
+{
+    text-align: center;
+    color: #818181;
+    margin: 24px 0px;
+}
+.enter-text .six-text span a
+{
+    text-decoration: none;
+    color: #0b143b;
+    list-style: none;
+    font-weight: 400;
+    font-size: 16px;
+}
+.enter-text .seven-text
+{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.enter-text .seven-text a
+{
+    color: #0b143b;
+    text-decoration: none;
+    list-style: none;
+}
+

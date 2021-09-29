@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+/* NAVBAR */
+.vote-navbar .navbar-wrapper{
+    margin: 0 auto;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.vote-navbar .navbar-wrapper .navbar-li {
+    display: flex;
+    align-items: center;
+}
+
+.vote-navbar .navbar-wrapper .navbar-li li {
+    margin: 0 40px;
+
+}
+
+.vote-navbar
+{
+    background-color:#0b143b;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: 0.3s;
+    padding: 10px 0px;
+    z-index: 1;
+}
+.vote-navbar.sticky
+{
+    padding: 1px 0px;  
+}
+
+.vote-navbar .navbar-li li
+{
+    list-style: none;
+}
+.vote-navbar .navbar-li li a
+{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+}
+.vote-navbar.sticky .navbar-li li a
+{
+    color: #9d9d9d;
+}
+.vote-navbar .navbar-li li a:hover
+{
+    color: #e6e1e1;
+}
+
+
+/* END */
+
+/* MULTI */
+
+.vote-body h3{
+    color: #0b143b;
+}
+
+.vote-body h4 {
+    color: #818181;
+}
+
+/* Heading Section */
+.vote-body .contend-wrapper {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.vote-body .vote-heading1 {
+    max-width: 1800px;
+    height: 500px;
+    margin: 0 auto;
+    background-image: url('../image/wba-new-trophies-midheader.jpg');
+    background-size: auto;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vote-body .vote-heading1 h1 {
+    color: white;
+    margin-top: 157px;
+    font-size: 50px;
+    font-weight: 500;
+    text-shadow: 1px 1px 5px rgb(110, 110, 110);
+}
+
+.vote-body section.vote-container-first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.vote-body .contend-wrapper section.vote-container-first .text2 h4 {
+    font-weight: 400;
+}
+
+.vote-body section.vote-container-first > div {
+    margin-bottom: 50px;
+    display: flex;
+    text-align: center;
+}
+
+/* VOTE BUTTON */
+
+.vote-body .contend-wrapper section.vote-container-first .vote-big-btn {
+    height: 90px;
+    width: 100%;
+    background: #0b143b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+
+.vote-body .contend-wrapper section.vote-container-first .vote-big-btn a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.vote-body .contend-wrapper section.vote-container-first .vote-big-btn:hover {
+    border: 2px solid #0b143b;
+}
+
+.vote-body .contend-wrapper section.vote-container-first .vote-big-btn:hover a {
+    color: #1e73be;
+    
+}
+
+/* END */
+
+.vote-body .contend-wrapper section.vote-container-first .space-line {
+    background: #0b143b;
+    height: 2px;
+    width: 30px;
+}
+
+.vote-body .contend-wrapper section.vote-container-first .text3 a {
+    color: #0b143b;
+}
+
+.vote-body .contend-wrapper section.vote-container-first .text4 {
+    margin: 50px 0;
+    color: #0b143b;
+}
+.vote-body .contend-wrapper section.vote-container-first .text4 h4{
+    color: #0b143b;
+}
+
+.vote-body .contend-wrapper section.vote-container-first .text4 a {
+    color: #0b143f;
+    font-weight: 900;
+}
+
+/* FOOTER */
+
+.vote-body .vote-footer {
+    height: 50px;
+    width: 100%;
+    background: #0b143b;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.vote-body .vote-footer a {
+    color: #fff;
+    text-decoration: none;
+}

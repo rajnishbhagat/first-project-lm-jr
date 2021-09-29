@@ -1,0 +1,23 @@
+/* Social Media Css */
+
+.social-media-box {
+    border: 1px solid red;
+    height: auto;
+    width: 255px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.social-media-box .icon-div {
+    margin: 10px;
+}
+
+.social-media-box .icon-div .social-media-icons .bs-icon {
+    color: #1e73be;
+}
+
+.social-media-box .icon-div .social-media-icons .bs-icon:hover {
+    color: #8fcbff;
+}
+
+/* Social Media Css End */

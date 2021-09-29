@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block basefile %}
+
+    <div class="awards-body">
+        <div class="awards-heading1">
+            <h1>THE AWARDS</h1>
+        </div>
+        <div class="contend-wrapper">
+            <section class="awards-container-first">
+                <div class="logo">
+                    <img src={% static 'image/logo2.png' %} alt="">
+                </div>
+                <div class="text1">
+                    <h2 class="main-h">THE THIRD EDITION OF THE AWARDS RETURNED VITRUALLY ON 9 SEPTEMBER.</h2>
+                </div>
+                <div class="text2">
+                    <h2>CLICK HERE TO SEE THE FULL LIST OF THE 2019-2021 ANIMALIS EDITION – WORLD BRANDING AWARD WINNERS
+                    </h2>
+                </div>
+                <hr>
+            </section>
+            <section class="awards-container-second">
+                <div class="awards-heading">
+                    <h2 class="main-h">AWARD TIERS</h2>
+                </div>
+                <div class="contend">
+                    <div class="awards-image">
+                        <img src={% static 'image/WBA-Trophy-Tri.png' %} alt="">
+                    </div>
+                    <div class="awards-details">
+                        <h3 class="awards-details-h3 main-h">GLOBAL AWARD</h3>
+                        <p class="awards-details-para awards-para">The Global Award is presented to truly international brands that have a presence in ten or
+                            more
+                            countries, on three or more continents. These are truly global household names, and the
+                            award is
+                            limited to the top 100 global brands in any particular year.</p>
+                        <h3 class="awards-details-h3 main-h">REGIONAL AWARD</h3>
+                        <p class="awards-details-para awards-para">The Regional Award is presented to brands who are top in several countries in a particular
+                            geographic region.</p>
+                        <h3 class="awards-details-h3 main-h">NATIONAL AWARD</h3>
+                        <p class="awards-details-para awards-para">
+                            The National Award is presented to the very top brands in each participating country at the
+                            awards. These are brands that are household names in their home country that have been
+                            judged to
+                            be truly exceptional.
+                            <br><br>
+                            Winners of the Global Award are not eligible for the National Award.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="awards-blue">
+            <div class="awards-blue-container">
+                <span>BE THE NEXT BRAND OF THE YEAR</span>
+                <div class="btn">
+                    <a class="btn-a" href="#">ENTER YOUR BRAND</a>
+                </div>
+            </div>
+        </div>
+        <div class="contend-wrapper">
+            <div class="awards-judging">
+                <h2 class="main-h">JUDGING</h2>
+                <P class="awards-para">Winners of the World Branding Awards are uniquely judged through three streams, with each stream
+                    contributing a set percentage to the total score in evaluating a brand.
+                </P>
+            </div>
+        </div>
+    </div>
+{% endblock basefile %}
